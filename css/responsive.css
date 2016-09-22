@@ -1,0 +1,428 @@
+
+@media (min-width: 360px) {
+  #slider.owl-carousel .owl-item .item .scaption h1,
+  #slider.owl-carousel .owl-item .item .scaption h2 {
+    font-size: 24px;
+  }
+  #slider.owl-carousel .owl-item .item .scaption h1 {
+    font-size: 36px;
+  }
+  #filter ul li a {
+    padding: 10px 7px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 375px) {
+  #filter ul li a {
+    padding: 10px 9px;
+    font-family: 'open_sanssemibold';
+    font-size: 13px;
+    text-transform: none;
+  }
+}
+
+
+@media (min-width: 411px) {
+  #slider.owl-carousel .owl-item .item .scaption h1,
+  #slider.owl-carousel .owl-item .item .scaption h2 {
+    font-size: 28px;
+  }
+  #slider.owl-carousel .owl-item .item .scaption h1 {
+    font-size: 36px;
+  }
+  #about-makers {
+    font-size: 17px;
+  }
+  #filter ul li a {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  #header .menu-utama {
+    padding: 15px;
+  }
+  #header .affix-top .logo a.logomakers {
+    width: 200px;
+    margin-left: 5px;
+  }
+  #header .topnav .nav>li>a {
+    padding: 10px 5px;
+  }
+  #header .affix-top .topnav {
+    padding-right: 20px; 
+  }
+  #header .daftar {
+    margin-left: 10px;
+    padding: 1px 15px;
+  }
+  #makers-home, #makers-careers, #makers-author {
+    padding-top: 75px;
+  }
+  #slider, #makers-author .container-fluid {
+    height: calc(100vh - 75px);
+  }
+  #slider.owl-carousel .owl-item .item .scaption {
+    width: 74%;
+    left: 13%;
+    bottom: 20%;
+  }
+  #slider.owl-carousel .owl-item .item .scaption.scaption-first {
+    bottom: 25%;
+  }
+  #slider.owl-carousel .owl-item .item .scaption.middle {
+    bottom: 36%;
+  }
+  #slider.owl-carousel .owl-item .item .scaption.left {
+    left: 5%;
+  }
+  #slider.owl-carousel .owl-item .item .scaption img {
+    width: 100%;
+    margin-bottom: 49px;
+  }
+  #slider.owl-carousel .owl-item .item .scaption h1,
+  #slider.owl-carousel .owl-item .item .scaption h2 {
+    font-size: 44px;
+    letter-spacing: -0.02em;
+  }
+  #slider.owl-carousel .owl-item .item .scaption h1 {
+    font-size: 40px;
+  }
+  #slider .owl-controls {
+    bottom: 20px;
+  }
+  #appsacademy .aa-c .webapps {
+    padding-right: 27px;
+    padding-left: 27px;
+  }
+  #appsacademy .aa-c .mobapps {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  #appsacademy .aa-c .mobapps:before {
+    content: "";
+    position: absolute;
+    border-left: 1px solid #3bb9c5;
+    top: 10%;
+    left: 0;
+    height: 80%;
+  }
+  #appsacademy .aa-c .col-app {
+    padding: 0 3px;
+  }
+  #appsacademy .aa-c .app-item {
+    margin-bottom: 99px;
+  }
+  #appsacademy .aa-c .app-item .imgwrap {
+    padding: 7px;
+  }
+  #appsacademy .aa-c .app-item p {
+    font-size: 16px;
+  }
+  #appsacademy .aa-c .app-item p.startl {
+    font-size: 12px;
+  }
+  .course-title h1 {
+    font-size: 60px;
+  }
+  .course-title .sub-h {
+    font-size: 26px;
+  }
+  .course-board .boardbox {
+    margin-bottom: 0;
+  }
+  .course-board .boardbox h3 {
+    font-size: 22px;
+  }
+  .course-board .boardbox p {
+    font-size: 14px;
+  }
+  .course-heading .course-topnav {
+    font-size: 17px;
+  }
+  .course-heading .course-topnav li a, .course-heading .course-topnav li a:visited {
+    padding: 15px;
+  }
+  .course-heading a.daftars {    
+    margin-top: 10px;
+    padding: 6px 18px;
+    font-size: 16px;
+  }
+  .section-h h2 {
+    font-size: 28px;
+  }
+  #curriculum .weekbox h3 {
+    font-size: 18px;
+  }
+  #curriculum .weekbox .weektopics {
+    font-size: 15px;
+  }
+  #course-schedule h2 {
+    font-family: 'open_sanssemibold';
+    font-size: 36px;
+  }
+  #course-schedule .schedule-item {
+    padding: 15px;
+    font-size: 15px;
+  }
+  .secdaftar-course {
+    padding: 50px 15px 60px;
+  }
+  .aplikasi-daftar .aplikasi-header h1 {
+    font-size: 60px;
+  }
+  .aplikasi-daftar .aplikasi-header .sub-h {
+    font-size: 24px;
+  }
+  #filter ul li a {
+    padding: 11px 30px;
+    font-size: 16px;
+  }
+  #content .filter-item {
+    padding: 0 0 15px;
+  }
+  #content .filter-item .coursebox .course-ttl .course-desc {
+    text-align: left;
+    padding: 0;
+  }
+  #content .filter-item .coursebox .course-info {
+    margin-top: 30px;
+    text-align: left;
+  }
+  .slideout-panel {
+    will-change: initial;
+  }
+}
+
+@media (min-width: 810px) {
+  #appsacademy .aa-c .app-item .imgwrap {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 850px) {
+  #appsacademy .aa-c .app-item .imgwrap {
+    padding: 13px;
+  }
+}
+
+@media (min-width: 890px) {
+  #appsacademy .aa-c .app-item .imgwrap {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 915px) {
+  #appsacademy .aa-c .app-item .imgwrap {
+    padding: 7px;
+  }
+  #appsacademy .aa-c .app-item p {
+    font-size: 12px;
+  }
+}
+
+
+@media (min-width: 960px) {
+  h1 {
+    font-size: 46px;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 1em;
+  }
+  p {
+    line-height: 1.6;
+  }
+  #header .menu-utama {
+    padding: 15px 30px;
+  }
+  #header .affix-top .logo a.logomakers {
+    width: 230px;
+    margin-left: 20px;
+  }
+  #header .topnav .nav>li>a {
+    padding: 10px 7px;
+  }
+  #header .affix-top .topnav {
+    padding-right: 30px; 
+  }
+  #header .daftar {
+    margin-left: 30px;
+    padding: 1px 20px;
+  }
+  #appsacademy .aa-c .app-item p {
+    font-size: 13px;
+  }
+  #appsacademy .aa-c .app-item p.startl {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  #slider.owl-carousel .owl-item .item .scaption {
+    width: 70%;
+    left: 15%;
+    bottom: 20%;
+  }
+  #slider.owl-carousel .owl-item .item .scaption h1,
+  #slider.owl-carousel .owl-item .item .scaption h2 {
+    font-size: 50px;
+    font-family: 'open_sansbold';
+    letter-spacing: -0.02em;
+  }
+  #about-makers {
+    text-align: left;
+  }
+  #about-makers .container {
+    padding-bottom: 90px;
+  }
+  #about-makers .aboutxt {
+    padding-top: 0;
+    text-align: justify;
+  }
+  #why-makers .thumbwdesc {
+    padding: 0 25px;
+    margin-bottom: 30px;
+  }
+  #why-makers .thumbwdesc h3 {
+    margin: 1.4em 0 .7em 0;
+  }
+  #faqnav {
+    top: 240px;
+    margin-left: 40px;
+  }
+  .section-h h2 {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  .course-board .boardbox h3 {
+    font-size: 26px;
+  }
+  .course-board .boardbox p {
+    font-size: 18px;
+  }
+  #curriculum .weekbox h3 {
+    font-size: 20px;
+  }
+  #curriculum .weekbox .weektopics {
+    font-size: 16px;
+  }
+  #course-schedule .schedule-item {
+    padding: 15px;
+    font-size: 16px;
+  }
+  #content .filter-item {
+    padding: 0 40px 15px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+  h1, .section-heading {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  #header .menu-utama {
+    padding: 15px 40px;
+  }
+  #header .affix-top .logo a.logomakers {
+    width: 230px;
+    margin-left: 25px;
+  }
+  #header .affix-top .topnav {
+    padding-right: 35px; 
+  }
+  #header .daftar {
+    margin-left: 40px;
+    padding: 1px 26px;
+  }
+  #slider.owl-carousel .owl-item .item .scaption {
+    width: 50%;
+    left: 25%;
+    bottom: 20%;
+  }
+  #appsacademy .aa-c .webapps {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  #appsacademy .aa-c .mobapps {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #appsacademy .aa-c .col-app {
+    padding: 0 7px;
+  }
+  #appsacademy .aa-c .app-item .imgwrap {
+    padding: 15px;
+  }
+  #appsacademy .aa-c .app-item p {
+    font-size: 14px;
+  }
+  #appsacademy .aa-c .app-item p.startl {
+    font-size: 15px;
+    letter-spacing: .1em;
+  }
+  #faqnav {
+    top: 339px;
+    margin-left: 165px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  #appsacademy .aa-c .webapps {
+    padding-right: 40px;
+    padding-left: 60px;
+  }
+  #appsacademy .aa-c .mobapps {
+    padding-left: 40px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 1336px) {
+  #appsacademy .aa-c .webapps {
+    padding-right: 40px;
+    padding-left: 100px;
+  }
+  #appsacademy .aa-c .mobapps {
+    padding-left: 40px;
+    padding-right: 100px;
+  }
+  #appsacademy .aa-c .col-app {
+    padding: 0 7px;
+  }
+  #appsacademy .aa-c .app-item p {
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  #slider .item .slide-info {
+    width: 800px;
+    height: 450px;
+  }
+  #slider .item img.im-gadget {
+    width: 309px;
+  }
+  #slider .item img.im-logos {
+    width: 360px;
+    top: 90px;
+    left: 350px;
+  }
+  #slider .item .slide-txt {
+    font-size: 34px;
+    top: 240px;
+    left: 350px;
+  }
+}

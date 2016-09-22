@@ -1,0 +1,484 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NodeJS Academy - Makers Institute</title>
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+  
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" data-target=".course-topnav">
+
+  <section id="header">
+    <div class="container-fluid menu-utama hidden-xs" data-spy="affix" data-offset-top="75">
+      <div class="row">
+        <div class="col-md-2 logo pull-left">
+          <a class="logomakers" href="http://makersinstitute.aegis.co.id/"><img class="img-responsive" alt="Makers Institute" src="img/logo-makersinstitute.png"></a>
+        </div>
+        <div class="col-md-10 topnav">
+          <a class="daftar pull-right" href="pilih-kursus.html">Daftar</a>
+          <ul class="nav pull-right">
+            <li><a class="wearehiring visible-lg" href="karir.html">We are hiring</a></li>
+            <li><a href="index.html#about-makers">Tentang Kami</a></li>
+            <li><a href="index.html#appsacademy">Apps Academy</a></li>
+            <li><a href="index.html#hiring-partner">Hiring Partner</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- mobile menu -->
+  <nav id="menu-m" class="hidden-sm hidden-md hidden-lg">
+    <ul class="nav">
+      <li class="active m-link"><a href="index.html#about-makers">Tentang Kami</a></li>
+      <li class="m-link"><a href="index.html#appsacademy">Apps Academy</a></li>
+      <li class="m-link"><a href="index.html#hiring-partner">Hiring Partner</a></li>
+      <li class="m-link"><a href="events.html">Events</a></li>
+      <li class="m-link"><a href="faq.html">FAQ</a></li>
+      <li><a href="#">Blog</a></li>
+      <li class="divider-vertical"></li>
+      <li><a href="pilih-kursus.html">Daftar</a></li>
+      <li><a class="wearehiring-m" href="karir.html">We are hiring</a></li>
+    </ul>
+    <p>&nbsp;</p>
+  </nav>
+
+  <header id="header-m" class="" data-spy="affix" data-offset-top="50">
+    <div class="mheader">
+      <img src="img/logo-makersinstitute.png" class="img-responsive">
+    </div>
+    <button type="button" class="toggle-button navbar-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </header>
+
+
+  <div id="makers">
+
+  <section id="course-header">
+    <div class="container-fluid course-title">
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col-md-12"> -->
+            <img src="img/icons/makers-Institute-icontransparent-nodejs.png" class="img-responsive course-icon">
+            <h1>NODE JS ACADEMY</h1>
+            <p class="sub-h">Menjadi Node JS Developer dalam 12 minggu</p>
+          <!-- </div>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="container-fluid course-heading">
+      <div class="row">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="nav course-topnav">
+                <li><a class="course-link" href="#curriculum">Curriculum</a></li>
+                <li><a class="course-link" href="#course-schedule">Schedule</a></li>
+              </ul>
+              <a class="daftars btnred" href="aplikasi-pendaftaran-nodejs.html">Daftar sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid course-board">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-4 col-md-4">
+            <div class="boardbox">
+              <h3>Schedule</h3>
+              <img src="img/icons/courses-compass.png" class="img-responsive">
+              <p>3 kali seminggu, 17.00-21.00</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <div class="boardbox">
+              <h3>Mentoring</h3>
+              <img src="img/icons/courses-backpack.png" class="img-responsive">
+              <p>Personal Guidance</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <div class="boardbox">
+              <h3>Locations</h3>
+              <img src="img/icons/courses-map.png" class="img-responsive">
+              <p>Bandung, Jawa Barat</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="curriculum">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-h">
+          <h2>Apa yang akan kamu pelajari (Curriculum)</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>1. Ruby + Object-Oriented Design</h3>
+                <ul class="weektopics">
+                  <li>Basic + Intermediate Ruby</li>
+                  <li>Object-Oriented Design</li>
+                  <li>File I/O</li>
+                  <li>Basic Algorithms + Data Structures</li>
+                  <li>Code Quality</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>2. Ruby II + TDD</h3>
+                <ul class="weektopics">
+                  <li>Advanced Object Oriented Design</li>
+                  <li>Test-Driven Development + RSpec</li>
+                  <li>Computational Complexity</li>
+                  <li>Intermediate Algorithms</li>
+                  <li>Advanced Data Structures</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>3. SQL + AR</h3>
+                <ul class="weektopics">
+                  <li>Basic Querying</li>
+                  <li>Joins and Associations</li>
+                  <li>Aggregate Functions + Sub-Queries</li>
+                  <li>Schema Design</li>
+                  <li>ActiveRecord</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>4. The Web + Rails I</h3>
+                <ul class="weektopics">
+                  <li>HTTP and API Consumption</li>
+                  <li>REST</li>
+                  <li>MVC Architecture</li>
+                  <li>Basic Routing</li>
+                  <li>Full User Authentication</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>5. Rails II + JavaScript I</h3>
+                <ul class="weektopics">
+                  <li>Metaprogramming: Rebuilding Rails</li>
+                  <li>Request-Response Lifecycle</li>
+                  <li>Cookies + Sessions</li>
+                  <li>Basic + Intermediate JavaScript</li>
+                  <li>JavaScript Closures + 'this'</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>6. JavaScript II</h3>
+                <ul class="weektopics">
+                  <li>DOM Traversal + Manipulation</li>
+                  <li>CSS</li>
+                  <li>Prototypal Inheritance</li>
+                  <li>jQuery + AJAX</li>
+                  <li>Event-Driven Programming</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>7. React + Flux</h3>
+                <ul class="weektopics">
+                  <li>Client-Side MVC</li>
+                  <li>Interface Creation using React</li>
+                  <li>State Management</li>
+                  <li>Flux Architecture</li>
+                  <li>React Router + Single Page Apps</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>8. Capstone Projects I</h3>
+                <ul class="weektopics">
+                  <li>Project Design and Architecture</li>
+                  <li>Guided Application Development</li>
+                  <li>API Usage</li>
+                  <li>Application Deployment</li>
+                  <li>CSS Design + Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>9. Capstone Projects II</h3>
+                <ul class="weektopics">
+                  <li>Background Jobs</li>
+                  <li>Cloud Asset Management</li>
+                  <li>JavaScript Library Integration</li>
+                  <li>Web Application Architecture</li>
+                  <li>Google Maps Integration</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox" style="min-height:292px">
+                <h3>10. Job Search + Portfolio Building</h3>
+                <ul class="weektopics">
+                  <li>Front End Project</li>
+                  <li>Back End Project</li>
+                  <li>Resume and Cover letter prep</li>
+                  <li>Interview prep and techniques</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>11. Algorithms I + Interview Prep</h3>
+                <ul class="weektopics">
+                  <li>Salary Negotiation Workshop</li>
+                  <li>Technical Interview workshop</li>
+                  <li>Coding challenges</li>
+                  <li>Pointers + Dynamic Arrays</li>
+                  <li>LRU Caches + Heaps</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-week">
+              <div class="weekbox">
+                <h3>12. Algorithms II + Hiring Day</h3>
+                <ul class="weektopics">
+                  <li>Sorting Algorithms</li>
+                  <li>Binary Search Trees</li>
+                  <li>AVL Trees</li>
+                  <li>Graph Algorithms</li>
+                  <li>Hiring Day</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="fixed-apply" class="hidden-xs hidden-sm hidden-md hidden-lg" data-spy="affix" data-offset-top="845" data-offset-bottom="1350">
+      <div class="info">
+        <h4>98% of graduates gets hired</h4>
+        <p>Graduates get hired at top tech companies and earn an average salary of:</p>
+        <p class="prctag">$105,000</p>
+        <p>Jakarta</p>
+        <p class="prctag">$89,000</p>
+        <p>Bandung</p>
+      </div>
+      <a href="aplikasi-pendaftaran-nodejs.html">Daftar Sekarang</a>
+    </div>
+  </section>
+
+
+  <section id="course-schedule">
+    <div class="container">
+      <h2>Jadwal Kelas</h2>
+      <div class="row schedule-h hidden-xs">
+        <div class="col-sm-1 col-md-2"> </div>
+        <div class="col-sm-5 col-md-4">Periode Pendaftaran</div>
+        <div class="col-sm-5 col-md-4">Mulai Kelas</div>
+        <div class="col-sm-1 col-md-2"> </div>
+      </div>
+
+      <div class="row schedule-item">
+        <div class="batch col-sm-1 col-md-2">Gelombang 1</div>
+        <div class="tglpre col-sm-5 col-md-4">1 - 26 September 2016</div>
+        <div class="tglkls col-sm-5 col-md-4">4 Oktober 2016</div>
+        <div class="kelas terbuka col-sm-1 col-md-2"><a href="aplikasi-pendaftaran-nodejs.html">Open</a></div>
+      </div>
+      <div class="row schedule-item">
+        <div class="batch col-sm-1 col-md-2">Gelombang 2</div>
+        <div class="tglpre col-sm-5 col-md-4">1 November - 6 Januari 2017</div>
+        <div class="tglkls col-sm-5 col-md-4">17 Januari 2017</div>
+        <div class="kelas terbuka col-sm-1 col-md-2"><a href="aplikasi-pendaftaran-nodejs.html">Open</a></div>
+      </div>
+
+      <!-- <div class="row schedule-item batchfull">
+        <div class="batch col-sm-1 col-md-2">Gelombang 2</div>
+        <div class="tglpre col-sm-5 col-md-4">29 Agustus - 24 September 2016</div>
+        <div class="tglkls col-sm-5 col-md-4">17 Desember 2016</div>
+        <div class="kelas penuh col-sm-1 col-md-2">FULL</div>
+      </div>
+      <div class="row schedule-item">
+        <div class="batch col-sm-1 col-md-2">Gelombang 3</div>
+        <div class="tglpre col-sm-5 col-md-4">2 Januari - 27 Januari 2017</div>
+        <div class="tglkls col-sm-5 col-md-4">30 Januari - 21 April 2017</div>
+        <div class="kelas terbuka col-sm-1 col-md-2">Open</div>
+      </div> -->
+      
+    </div>
+  </section>
+
+  <section class="secdaftar-course hidden-xs hidden-sm hidden-md hidden-lg">
+    <div class="info">
+      <h3>98% of graduates gets hired</h3>
+      <p>Graduates get hired at top tech companies and earn an average salary of:</p>
+      <p class="prctag">$105,000<br><span>Jakarta</span></p>
+      <p class="prctag">$89,000<br><span>Bandung</span></p>
+    </div>
+    <a class="btnbig btnred" href="aplikasi-pendaftaran-nodejs.html">Daftar sekarang</a>
+  </section>
+
+  <section id="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 section-h">
+          <h1>Subscribe</h1>
+          <p>Dapatkan berita, program, event dan promo terbaru dari Makers Institute.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <form>
+            <input type="email" name="usremail" class="placeholder-fix" onfocus="this.placeholder = ''" onblur="this.placeholder = 'alamat email'" placeholder="alamat email">
+            <button type="submit" name="subscribe" class="form-control">Subscribe now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+     <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <ul class="list-unstyled bottomnav">
+            <li><a class="head-link" href="index.html#about-makers">Tentang Kami</a></li>
+            <li><a class="head-link" href="index.html#hiring-partner">Hiring Partner</a></li>
+            <li><a class="head-link" href="index.html#appsacademy">Apps Academy</a></li>
+            <li><a class="head-link" href="index.html#alumni">Alumni</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="karir.html">Karir</a></li>
+            <li><a href="author.html">Author</a></li>
+          </ul>
+          <img src="img/logo-makersinstitute-w.png" class="footerlogo">
+          <h5>Makers Institute</h5>
+          <p>Jl. Kyai Gede Utama no. 11 Dipati Ukur, Bandung<br>+62 22 250 2552</p>
+          <ul class="list-unstyled social">
+            <li><a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li><a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyr">&copy;2016 Makers Institute. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </div><!-- ./makers -->
+  
+
+  
+
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slideout.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script type="text/javascript">
+    $('.course-link').click(function(e) {
+      e.preventDefault();
+       
+      var goto = $(this).attr('href');
+   
+      $('html, body').animate({
+          scrollTop: $(goto).offset().top -75
+      }, 500);
+    });
+  </script>
+
+
+</body>
+</html>
